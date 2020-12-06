@@ -45,4 +45,16 @@ const now_year= 2020;
 console.log(`Next year will be ${now_year+1} while the the previous year was ${now_year-1}`);
 alert(`Next year will be ${now_year+1} while the the previous year was ${now_year-1}`);
 
-//task
+//task 6th
+let leapyear;
+alert('Task 6th');
+alert('This is a calculator to calcute if the year that you choose is a leap year');
+leapyear = parseInt(prompt(`Enter the year of your choice to know if is a leap year`));
+if (leapyear % 4==0 && leapyear % 100!= 0){
+    console.log(`${leapyear} is a leap year`);
+    alert(`${leapyear} is a leap year`);
+}
+else{
+    console.log(`${leapyear} is not a leap year`);
+    alert(`${leapyear} is not a leap year`);
+}
