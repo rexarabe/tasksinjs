@@ -181,3 +181,38 @@ else{
     alert(`Too bad, you got the wrong answer it's ${multiply}`);
     console.log(`Too bad, you got the wrong answer it's ${multiply}`);
 }
+
+//task 16
+
+alert(`Task 16`);
+alert(`Давайте играем такцю игру`);
+let chislo, chislo10, chislo102;
+chislo = prompt(`Давайте выбираете 2-x значение число`);
+while( chislo > 100 && chislo<0){
+    chislo = prompt(`Давайте выбираете 2-x значение число, он не должен быть больше чем 100 и не должен быть отрицательный`);
+}
+chislo = parseInt(chislo);
+chislo10 = parseInt((chislo/ 10));
+chislo102=chislo10*2;
+chislo = chislo-(chislo10+chislo102)*10;
+chislo +=5;
+chislo *=5;
+chislo +=10;
+chislo +=1;
+alert(`Умнажаете его десяток на 2`);
+alert(`добавляете 5`);
+alert(`умножаете на 5`);
+alert(`добовляете 10`);
+alert(`добавляете 1`);
+let answer11;
+answer11= prompt(`Вы угодали? Сколько по вашему`);
+if (answer11=== chislo){
+    alert(`Браво вы угодали  это действительно ${answer11}`);
+    console.log(`Браво вы угодали  это действительно ${answer11}`);
+
+}
+else{
+    alert(`Нет, вы не угадали, может быть в следующий раз`);
+    console.log(`Нет, вы не угадали, может быть в следующий раз`);
+
+}
