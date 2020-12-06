@@ -110,9 +110,9 @@ console.log(`Общая сумма покупок будет ${sum} гривен
 alert(`Task 11`);
 alert(`Давай скидки делаем`);
 if (sum > 500){
-    sum *= 0.98;
-    alert(`Поздравляем вам, вы получили скидки,  покупка будет ${sum} гривен. Желаем вам хорошого дня`);
-    console.log(`Поздравляем вам, вы получили скидки,  покупка будет ${sum} гривен. Желаем вам хорошого дня`);
+    sum1 = sum* 0.98;
+    alert(`Поздравляем вам, вы получили скидки,  покупка будет ${sum1} гривен. Желаем вам хорошого дня`);
+    console.log(`Поздравляем вам, вы получили скидки,  покупка будет ${sum1} гривен. Желаем вам хорошого дня`);
 
 }
 else{
@@ -124,8 +124,43 @@ else{
 alert(`Task 12`);
 alert(`This is for converting Hryvna from decimal number to Hryvna and Kopecks `);
 let Hryvna = prompt(`Enter the sum in Hryvna`);
-let Kopecks = parseInt((Hryvna - parseInt(Hryvna))*100);
+let Kopecks;
+Kopecks = parseInt((Hryvna - parseInt(Hryvna)) * 100);
 alert(`The sum is ${parseInt(Hryvna)} Hryvna and ${Kopecks} Kopecks`);
 console.log(`The sum is ${parseInt(Hryvna)} Hryvna and ${Kopecks} Kopecks`);
 
 //task 13
+alert('This is the continuation of task 11');
+if(sum >500 && sum < 700){
+    alert(`Поздравляем вам, вы получили скидки 2%,  покупка будет ${sum1} гривен. Желаем вам хорошого дня`);
+    console.log(`Поздравляем вам, вы получили скидки 2%,  покупка будет ${sum1} гривен. Желаем вам хорошого дня`);
+
+}
+else if (sum > 700){
+    sum2 = 0.97 * sum;
+    alert(`Поздравляем вам, вы получили скидки 3%,  покупка будет ${sum2} гривен. Желаем вам хорошого дня`);
+    console.log(`Поздравляем вам, вы получили скидки 3%,  покупка будет ${sum2} гривен. Желаем вам хорошого дня`);
+
+}
+else{
+    alert(`Скидка дествует только если вы купите высше чем 500 гривен а еще скидка увеличает если покупки больше чем 700 гривень, приедите к нам еще раз, и желаем вам хорошего дня`);
+    console.log(`Скидка дествует только если вы купите высше чем 500 гривен а еще скидка увеличает если покупки больше чем 700 гривень, приедите к нам еще раз, и желаем вам хорошего дня`);
+}
+
+//task 14
+alert(`Task 14`);
+let answer = parseInt(prompt(`How much is 2+2`));
+if (answer === 4){
+    alert(`It's trivial, good answer`);
+    console.log(`It's trivial, good answer`);
+}
+else if(answer ===5)
+{
+    alert(`It's false, and this is not 1984, I am not big brother to watch you`);
+    console.log(`It's false, and this is not 1984, I am not big brother to watch you`);
+}
+else
+    {
+        alert(`It's false.`);
+        console.log(`It's false`);
+    }
