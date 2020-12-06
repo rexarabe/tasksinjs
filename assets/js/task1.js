@@ -40,4 +40,9 @@ alert(`The sum of the stock of the money is ${superdokhod} , after ${yearsmax}`)
 console.log(`The sum of the stock of the money is ${superdokhod} , after ${yearsmax}`);
 
 // task 5th
-//const now_year= 2020;
+alert(`task 5th`)
+const now_year= 2020;
+console.log(`Next year will be ${now_year+1} while the the previous year was ${now_year-1}`);
+alert(`Next year will be ${now_year+1} while the the previous year was ${now_year-1}`);
+
+//task
