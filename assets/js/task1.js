@@ -95,3 +95,15 @@ alert(`Объем шара: ${vshar}, площадь шара: ${sshar}`);
 console.log(`Объем шара: ${vshar}, площадь шара: ${sshar}`);
 
 //task 10
+alert(`Task 10th`);
+let cenatetrad, cenaruchka, N, M, sum;
+alert(`Вычислить стоимость покупки, которая состоит из N тетрадей и M ручек`);
+cenatetrad = prompt(`Введитие цена одного тетрадь на гривнах`);
+N = parseInt(prompt(`Введите число N являющий количество тетради`));
+cenaruchka = prompt(`Ведитие цена одного ручка на гривнах`);
+M = parseInt(prompt(`Введите число M являющий количество ручки`));
+sum = cenatetrad*N+cenaruchka*M;
+alert(`Общая сумма покупок будет ${sum} гривен`);
+console.log(`Общая сумма покупок будет ${sum} гривень`);
+
+
