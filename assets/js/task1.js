@@ -173,7 +173,7 @@ a1 = prompt(`Please enter a`);
 b1 = prompt(`Please enter b`);
 multiply = a1*b1;
 answerUser = prompt(`So, What is your guess?`);
-if (answerUser === multiply){
+if (multiply == answerUser){
     alert(`Good job, you got the answer ${answerUser}`);
     console.log(`Good job, you got the answer it's ${answerUser}`)
 }
@@ -192,7 +192,7 @@ while( chislo > 100 && chislo<0){
     chislo = prompt(`Давайте выбираете 2-x значение число, он не должен быть больше чем 100 и не должен быть отрицательный`);
 }
 chislo = parseInt(chislo);
-chislo10 = parseInt((chislo/ 10));
+chislo10 = parseInt(chislo/ 10);
 chislo102=chislo10*2;
 chislo = chislo-(chislo10+chislo102)*10;
 chislo +=5;
@@ -206,7 +206,7 @@ alert(`добовляете 10`);
 alert(`добавляете 1`);
 let answer11;
 answer11= prompt(`Вы угодали? Сколько по вашему`);
-if (answer11=== chislo){
+if (answer11== chislo){
     alert(`Браво вы угодали  это действительно ${answer11}`);
     console.log(`Браво вы угодали  это действительно ${answer11}`);
 
