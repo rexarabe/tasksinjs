@@ -50,7 +50,7 @@ let leapyear;
 alert('Task 6th');
 alert('This is a calculator to calcute if the year that you choose is a leap year');
 leapyear = parseInt(prompt(`Enter the year of your choice to know if is a leap year`));
-if (leapyear % 4===0 && leapyear % 100!== 0){
+if ((leapyear % 4===0 && leapyear % 100!== 0) || (leapyear % 400 === 0)){
     console.log(`${leapyear} is a leap year`);
     alert(`${leapyear} is a leap year`);
 }
@@ -85,3 +85,13 @@ console.log(`The number of hours you enter in minutes will be ${minutes} minutes
 
 
 //task 9
+alert(`Task 9th`);
+alert(`Вычислаем объем и площадь шара`);
+let sshar, vshar, r;
+r = parseInt(prompt(`Введите радиуса шара`));
+vshar = 3/4*Math.PI*r**3;
+sshar = 4*Math.PI*r**2;
+alert(`Объем шара: ${vshar}, площадь шара: ${sshar}`);
+console.log(`Объем шара: ${vshar}, площадь шара: ${sshar}`);
+
+//task 10
