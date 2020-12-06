@@ -124,6 +124,8 @@ else{
 alert(`Task 12`);
 alert(`This is for converting Hryvna from decimal number to Hryvna and Kopecks `);
 let Hryvna = prompt(`Enter the sum in Hryvna`);
-let Kopecks = (parseInt(Hryvna) - Hryvna)*100;
+let Kopecks = parseInt((Hryvna - parseInt(Hryvna))*100);
 alert(`The sum is ${parseInt(Hryvna)} Hryvna and ${Kopecks} Kopecks`);
 console.log(`The sum is ${parseInt(Hryvna)} Hryvna and ${Kopecks} Kopecks`);
+
+//task 13
