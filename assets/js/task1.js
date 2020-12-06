@@ -1,4 +1,4 @@
-// 1st Task: Ask the name name of the user and send him greatings on the screen.
+// 1st Task: Ask the name name of the user and send him greetings on the screen.
 
 let name_user;
 alert(`task 1`);
@@ -7,7 +7,7 @@ console.log(`Hello, ${name_user}`);
 alert(`Hello, ${name_user}`);
 
 
-//2nd task: declare x and multiply by 30 and substract by 100 and put the result on the screen.
+//2nd task: declare x and multiply by 30 and subtract by 100 and put the result on the screen.
 
 alert('task2');
 let X;
@@ -119,3 +119,11 @@ else{
     alert(`Скидка дествует только если вы купите высше чем 500 гривен, приедите к нам еще раз, и желаем вам хорошего дня`);
     console.log(`Скидка дествует только если вы купите высше чем 500 гривен, приедите к нам еще раз, и желаем вам хорошего дня`);
 }
+
+//task 12
+alert(`Task 12`);
+alert(`This is for converting Hryvna from decimal number to Hryvna and Kopecks `);
+let Hryvna = prompt(`Enter the sum in Hryvna`);
+let Kopecks = (parseInt(Hryvna) - Hryvna)*100;
+alert(`The sum is ${parseInt(Hryvna)} Hryvna and ${Kopecks} Kopecks`);
+console.log(`The sum is ${parseInt(Hryvna)} Hryvna and ${Kopecks} Kopecks`);
