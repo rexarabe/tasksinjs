@@ -3,6 +3,10 @@
 let name_user;
 alert(`task 1`);
 name_user  = prompt("What is your name?");
+do{
+    name_user  = prompt("What is your name?");
+}
+while(typeof name_user !== "string");
 console.log(`Hello, ${name_user}`);
 alert(`Hello, ${name_user}`);
 
