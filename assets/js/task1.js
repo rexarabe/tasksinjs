@@ -72,3 +72,16 @@ c = parseFloat(prompt(`Enter the value of c`));
 unknown = (c-b)/a;
 alert(`With the following parameters you enter then x equal: ${unknown}`);
 console.log(`With the following parameters you enter then x equal: ${unknown}`);
+
+//Task 8th
+alert(`Task 8th`);
+alert(`Please enter the hours so I could convert it into minute and seconds`);
+let hours, minutes, seconds;
+hours = parseInt(prompt(`Enter the number of hours`));
+minutes = hours*60;
+seconds = hours*3600;
+alert(`The number of hours you enter in minutes will be ${minutes} minutes, in seconds it's would be ${seconds}`);
+console.log(`The number of hours you enter in minutes will be ${minutes} minutes, in seconds it's would be ${seconds}`);
+
+
+//task 9
