@@ -164,3 +164,20 @@ else
         alert(`It's false.`);
         console.log(`It's false`);
     }
+
+//task 15
+alert(`Task 15`);
+alert(`We are going to make the multiplication of a and b`);
+let a1, b1, multiply, answerUser;
+a1 = prompt(`Please enter a`);
+b1 = prompt(`Please enter b`);
+multiply = a1*b1;
+answerUser = prompt(`So, What is your guess?`);
+if (answerUser === multiply){
+    alert(`Good job, you got the answer ${answerUser}`);
+    console.log(`Good job, you got the answer it's ${answerUser}`)
+}
+else{
+    alert(`Too bad, you got the wrong answer it's ${multiply}`);
+    console.log(`Too bad, you got the wrong answer it's ${multiply}`);
+}
