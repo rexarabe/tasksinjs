@@ -62,3 +62,13 @@ else{
 
 //Task 7 th
 alert(`Task 7`);
+alert(`This is a task to solve this formula a*x + b = c, where x is the unknown, where a, b and c is there parameters of the formula`);
+alert(`Please enter the parameter of this formula to find the value of x`);
+let a, b, c, unknown;
+a = parseFloat(prompt('Enter the value a'));
+b = parseFloat(prompt(`Enter the value b`));
+c = parseFloat(prompt(`Enter the value of c`));
+
+unknown = (c-b)/a;
+alert(`With the following parameters you enter then x equal: ${unknown}`);
+console.log(`With the following parameters you enter then x equal: ${unknown}`);
