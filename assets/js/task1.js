@@ -50,7 +50,7 @@ let leapyear;
 alert('Task 6th');
 alert('This is a calculator to calcute if the year that you choose is a leap year');
 leapyear = parseInt(prompt(`Enter the year of your choice to know if is a leap year`));
-if (leapyear % 4==0 && leapyear % 100!= 0){
+if (leapyear % 4===0 && leapyear % 100!== 0){
     console.log(`${leapyear} is a leap year`);
     alert(`${leapyear} is a leap year`);
 }
