@@ -36,8 +36,8 @@ for(years=0; years<yearsmax; years++){
     dokhod *=1.05;
 }
 superdokhod = parseInt(dokhod);
-alert(`The sum of the stock of the money is ${superdokhod} , after ${yearsmax}`);
-console.log(`The sum of the stock of the money is ${superdokhod} , after ${yearsmax}`);
+alert(`The sum of the stock of the money is ${superdokhod} , after ${yearsmax} year(s)`);
+console.log(`The sum of the stock of the money is ${superdokhod} , after ${yearsmax} year(s)`);
 
 // task 5th
 alert(`task 5th`)
@@ -58,3 +58,7 @@ else{
     console.log(`${leapyear} is not a leap year`);
     alert(`${leapyear} is not a leap year`);
 }
+
+
+//Task 7 th
+alert(`Task 7`);
