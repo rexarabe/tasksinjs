@@ -16,6 +16,10 @@ alert(`Hello, ${name_user}`);
 alert('task2');
 let X;
 X = parseFloat(prompt(`Please enter the value of X:`));
+do{
+    X = parseFloat(prompt(`Please enter the value of X:`));
+}
+while(typeof X !== "number");
 X = X*30 -100;
 console.log(`The value of X now is: ${X}`);
 alert(`The value of X now is: ${X}`);
@@ -26,6 +30,7 @@ alert(`task3`);
 let width, height, surface;
 height=parseFloat(prompt(`please enter the height of the rectangle`));
 width=parseFloat(prompt('please enter the width of the rectangle'));
+
 surface=height*width;
 console.log(`The surface of rectangle is: ${surface}`);
 alert(`The surface of rectangle is: ${surface}`);
